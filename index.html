@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Get things done</title>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <header>
+        Get things done
+    </header>
+
+    <div class="container">
+        <p>
+            <label for="new-task">Add Task</label><input id="new-task" type="text"
+                placeholder="Task"><button>Add</button>
+        </p>
+
+        <h3>To-do</h3>
+        <ul id="incomplete-tasks">
+            <li><input type="checkbox"><label>Create your own to-do list</label><input type="text"><button
+                    class="edit">Edit</button><button class="delete">Delete</button></li>
+
+        </ul>
+        <p>Number of tasks left: <span id="counter">1</span></p>
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>Start being more organized</label><input type="text"><button
+                    class="edit">Edit</button><button class="deletea">Delete</button></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
